@@ -134,8 +134,8 @@ header {
 }
 .user-name {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  font-size: 0.9rem;
+  font-weight: 500;
+  font-size: 1rem;
   margin-right: 20px;
 }
 .circle-link {
@@ -174,4 +174,47 @@ header {
   position: absolute;
   top: -4px;
   right: -4px;
+}
+/* Side Navigation Bar */
+.content-area--feed {
+  padding: 90px 15px 20px;
+  display: flex;
+}
+.sidenav-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.sidenav-item-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.sidenav-item-title {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sidenav-icon {
+  height: 36px;
+  width: 36px;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.item-notification {
+  color: var(--fb-blue);
+  font-size: 0.74rem;
+  margin-top: 5px;
+  display: block;
+  font-weight: 300;
+}
+.item-notification-circle {
+  width: 7px;
+  height: 7px;
+  background-color: var(--fb-blue);
+  border-radius: 50%;
+  display: inline-block;
 }
